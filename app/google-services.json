@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "36696906541",
+    "firebase_url": "https://my-class-card-default-rtdb.firebaseio.com",
+    "project_id": "my-class-card",
+    "storage_bucket": "my-class-card.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36696906541:android:fdd33cccfbfd9c6d8d51a4",
+        "android_client_info": {
+          "package_name": "ph.kodego.alfaro.vismarjay.myclasscard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "36696906541-ldfv4ls6r37t5oq46mls0jo88c80c29p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBW34e2NX8GCEq2rgqD7yEozxPbWeYRZB4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "36696906541-ldfv4ls6r37t5oq46mls0jo88c80c29p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36696906541:android:b44ffe5693e3b1568d51a4",
+        "android_client_info": {
+          "package_name": "ph.kodego.alfaro.vismarjay.pokemotamagochi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "36696906541-ldfv4ls6r37t5oq46mls0jo88c80c29p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBW34e2NX8GCEq2rgqD7yEozxPbWeYRZB4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "36696906541-ldfv4ls6r37t5oq46mls0jo88c80c29p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36696906541:android:be4118b45ba0866b8d51a4",
+        "android_client_info": {
+          "package_name": "ph.kodego.alfaro.vismarjay.vmver1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "36696906541-ldfv4ls6r37t5oq46mls0jo88c80c29p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBW34e2NX8GCEq2rgqD7yEozxPbWeYRZB4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "36696906541-ldfv4ls6r37t5oq46mls0jo88c80c29p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

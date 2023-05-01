@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Virtual Monsters</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="login_title">Log In</string>
+    <string name="username">Username</string>
+    <string name="register">Register</string>
+    <string name="send">Send</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="login_button">Log In</string>
+    <string name="create_account">Create account</string>
+    <string name="or">or</string>
+    <string name="facebook_login">Log in with Facebook</string>
+    <string name="google_login">Log in with Google</string>
+    <string name="tab_list">List</string>
+    <string name="tab_search">Search</string>
+    <string name="tab_transaction">Transaction</string>
+
+</resources>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlayActivity">
+
+    <!-- opponent Pokemon Info -->
+    <LinearLayout
+        android:id="@+id/opponentPokemonInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_margin="16dp">
+
+        <!-- opponent Pokemon Name and HP -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/opponentPokemonName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Charizard"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/opponentPokemonHP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HP: 100/100"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <!-- opponent Pokemon Image -->
+        <ImageView
+            android:id="@+id/opponentPokemonImage"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/normal_egg"
+            android:contentDescription="opponent Pokemon" />
+    </LinearLayout>
+
+    <!-- player Pokemon Info -->
+    <LinearLayout
+        android:id="@+id/playerPokemonInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/opponentPokemonInfo"
+        android:layout_margin="16dp">
+
+        <!-- player Pokemon Image -->
+        <ImageView
+            android:id="@+id/playerPokemonImage"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/normal_egg"
+            android:contentDescription="player Pokemon" />
+
+        <!-- player Pokemon Name and HP -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="end">
+
+            <TextView
+                android:id="@+id/playerPokemonName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Blastoise"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:gravity="end" />
+
+            <TextView
+                android:id="@+id/playerPokemonHP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HP: 100/100"
+                android:textSize="14sp"
+                android:gravity="end" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- opponent Pokemon Moves -->
+    <LinearLayout
+        android:id="@+id/opponentPokemonMoves"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/playerPokemonInfo"
+        android:layout_margin="16dp">
+
+        <TextView
+            android:id="@+id/movesTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Moves"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/move1Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Flamethrower" />
+
+        <Button
+            android:id="@+id/move2Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fly" />
+
+        <Button
+            android:id="@+id/move3Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Earthquake" />
+
+        <Button
+            android:id="@+id/move4Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thunderbolt" />
+
+    </LinearLayout>
+
+    <!-- Attack Button -->
+    <Button
+        android:id="@+id/attackButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Attack"
+        android:layout_below="@id/opponentPokemonMoves"
+        android:layout_margin="16dp" />
+
+    <!-- Result Notification -->
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>
